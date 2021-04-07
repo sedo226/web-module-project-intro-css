@@ -1,0 +1,236 @@
+/* Meyer Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  /* border: 0; */
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+/* body {
+  background: white;
+  line-height: 1;
+  color: black;
+} */
+ol,
+ul {
+  list-style: none;
+}
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* General Styles */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 6.5rem;
+  margin-bottom: 2%;
+}
+section {
+  padding: 4% 0;
+}
+
+/* Header Section */
+nav {
+  padding: 2% 0;
+}
+nav a {
+  display: inline-block;
+  padding: 0.5%;
+  border-radius: 15px;
+  width: 10%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.25rem;
+  line-height: 1.25;
+}
+.orange {
+  background-color: #ff764e;
+  margin-left: 10%;
+}
+.blue {
+  background-color: #5ed3eb;
+  margin: 0 24%;
+}
+.yellow {
+  background-color: #ffcd69;
+  margin-right: 10%;
+}
+
+/* Top Section */
+.top {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+.top div {
+  display: inline-block;
+  text-align: center;
+}
+.left {
+  width: 35%;
+}
+.left img {
+  border-radius: 50%;
+  width: 65%;
+}
+.right {
+  width: 60%;
+  vertical-align: top;
+  margin-top: 2%;
+}
+.right h2 {
+  font-size: 2.25rem;
+  margin-bottom: 4%;
+}
+.right p {
+  font-size: 2.25rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Middle Sections */
+section.middle-1 {
+  padding-bottom: 1%;
+}
+section.middle-1 div.copy {
+  background-color: #ddb9a3;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1% 2%;
+  font-size: 2.25rem;
+  text-align: center;
+}
+section.middle-1 div.copy p:not(:last-child) {
+  margin-bottom: 1.5%;
+}
+section.middle-2 {
+  text-align: center;
+  padding-top: 1%;
+}
+section.middle-2 > div {
+  margin-bottom: 5%;
+}
+section.middle-2 p {
+  width: 20%;
+  margin: 0 auto;
+}
+section.middle-2 img.icon-img {
+  width: 10%;
+}
+span.bold {
+  font-weight: 700;
+}
+
+/* Bottom Section */
+section.bottom {
+  height: 40vh;
+  background-image: url("assets/footer_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 15%;
+}
+
+/* Footer */
+footer {
+  padding: 1% 0;
+  background-color: #f9e7dc;
+}
