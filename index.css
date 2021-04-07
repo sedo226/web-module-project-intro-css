@@ -1,4 +1,4 @@
-/* Meyer's Reset */
+/* Meyer Reset */
 html,
 body,
 div,
@@ -106,7 +106,6 @@ q {
 * {
   box-sizing: border-box;
   max-width: 100%;
-  border: 1px solid grey;
 }
 
 /* General Styles */
@@ -132,12 +131,14 @@ nav {
 }
 nav a {
   display: inline-block;
-  padding: 1% 0;
-  border-radius: 10px;
+  padding: 0.5%;
+  border-radius: 15px;
   width: 10%;
   text-align: center;
   color: #fff;
   text-decoration: none;
+  font-size: 2.25rem;
+  line-height: 1.25;
 }
 .orange {
   background-color: #ff764e;
@@ -172,4 +173,62 @@ nav a {
   line-height: 2;
   position: absolute;
   bottom: 20%;
+}
+.right h2 {
+  font-size: 2rem;
+  margin-bottom: 4%;
+}
+.right p {
+  font-size: 2.25rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Middle Sections */
+section.middle-1 {
+  padding-bottom: 1%;
+}
+section.middle-1 div.copy {
+  background-color: #ddb9a3;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1% 2%;
+  font-size: 2rem;
+  text-align: center;
+}
+section.middle-1 div.copy p:not(:last-child) {
+  margin-bottom: 1.5%;
+}
+section.middle-2 {
+  text-align: center;
+  padding-top: 1%;
+}
+section.middle-2 > div {
+  margin-bottom: 5%;
+}
+section.middle-2 p {
+  width: 20%;
+  margin: 0 auto;
+}
+section.middle-2 img.icon-img {
+  width: 10%;
+}
+span.bold {
+  font-weight: 700;
+}
+
+/* Bottom Section */
+section.bottom {
+  height: 40vh;
+  background-image: url("assets/footer_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 15%;
+}
+
+/* Footer */
+footer {
+  padding: 1% 0;
+  background-color: #f9e7dc;
 }
